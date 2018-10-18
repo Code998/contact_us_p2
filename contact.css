@@ -1,0 +1,95 @@
+/* Font */
+@font-face {
+    font-family: "KaushanScript";
+    src: url(font/KaushanScript-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Tangerine";
+    src: url(font/Tangerine-Regular.ttf) format("truetype");
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbar */
+#navbar{
+	width: 100%;
+	height: 250px;
+	background-image: url(img/moss.jpg);
+	background-position: center;
+}
+
+#navbar .content{
+	width: 100%;
+	margin: 0 auto;
+	font-family: "KaushanScript";
+	text-align: center;
+	padding-top: 80px;
+	font-size: 60px;
+}
+
+#navbar p{
+	margin: 0;
+}
+
+/* Content */
+
+.container{
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: "Tangerine";
+}
+
+/* Page 1 */
+#page1{
+	padding: 20px;
+	width: 600px;
+	float: left;
+	font-size: 30px;
+}
+
+#page1 h4{
+	font-size: 40px;
+}
+
+#page1 table{
+	padding-top: 0px;
+}
+
+#page1 table tr td{
+	padding: 15px;
+}
+
+#page1 table tr td input{
+	height: 20px;
+}
+
+
+/* Page 2 */
+#page2{
+	width: 400px;
+	height: 1050px;
+	padding: 20px;
+	float: right;
+	background-color: rgb(234,234,234);
+	border-radius: 5px;
+}
+
+#page2 img{
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+#page2 h4{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+#page2 p{
+	font-size: 24px;
+}
